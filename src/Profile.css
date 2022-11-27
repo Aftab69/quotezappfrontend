@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+}
+.profilepageContainer{
+    width: 100%;
+    min-height: 90vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.profilepageheadingContainer{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profilepageheadingText{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilepageheadingText>p{
+    margin: 20px;
+}
+.profilepageheadingButton{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilepageheadingButton>button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #000000;
+    color: white;
+    margin: 20px;
+    
+}
+.profilepageheadingButton>button:hover{
+    background: #1f1f1f;
+    cursor: pointer;
+}
+.mainInterfaceContainer{
+    background: rgb(197, 197, 197);
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+.displayInterfaceContainer{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayInterface{
+    border: 3px solid black;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.displayInterface>p{
+    width: 80%;
+    text-align:center;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.displayInterfaceContainerForView{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/forviewbackground.jpg");
+    background-size: cover;
+}
+.displayInterfaceForView{
+    border: 3px solid black;
+    margin: 5%;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.displayInterfaceForView>p{
+    width: 80%;
+    text-align:center;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.customizeInterfaceContainer{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colorContainer{
+    width: 100%;
+    min-height:26.66vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorContainerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colorContainerButtons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.colorContainerButtons>button{
+    margin: 10px 10px;
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+}
+.colorContainerButtons>button:hover{
+    cursor: pointer;
+}
+.colorContainerButtons>button:nth-child(1){
+    background: #3498db;
+}
+.colorContainerButtons>button:nth-child(2){
+    background: #e67e22;
+}
+.colorContainerButtons>button:nth-child(3){
+    background: #9b59b6;
+}
+.colorContainerButtons>button:nth-child(4){
+    background: #f1c40f;
+}
+.colorContainerButtons>button:nth-child(5){
+    background: #95a5a6;
+}
+.colorContainerButtons>button:nth-child(6){
+    background: #1abc9c;
+}
+.fontContainer{
+    width: 100%;
+    min-height:26.66vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fontContainerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fontContainerButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fontContainerButtons>button{
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+    background: #000000;
+    color: white;
+    margin: 10px;
+}
+.fontContainerButtons>button:hover{
+    cursor: pointer;
+    background: #1f1f1f;
+}
+.fontContainerButtons>button:nth-child(1){
+    font-family: 'Josefin Sans', sans-serif;
+}
+.fontContainerButtons>button:nth-child(2){
+    font-family: 'Dancing Script', cursive;
+}
+.fontContainerButtons>button:nth-child(3){
+    font-family: 'Cormorant Garamond', serif;
+}
+.inputContainer{
+    width: 100%;
+    min-height:26.66vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.inputContainerSemicontainer1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainerSemicontainer2{
+    width: 100%;
+    min-height: 26.66vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.inputContainerSemicontainer2a{
+    width: 100%;
+    min-height: 13.33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.inputContainerSemicontainer2b{
+    width: 100%;
+    min-height: 13.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainerSemicontainer2b>button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #000000;
+    color: white;
+    margin: 20px;
+}
+.inputContainerSemicontainer2b>button:hover{
+    background: #1f1f1f;
+    cursor: pointer;
+}
+.inputContainerTextarea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainerTextarea>textarea{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 90%;
+    resize: none;
+    min-height: 150px;
+}
+.inputContainerInputarea{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputContainerInputarea>input{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 90%;
+    min-height: 30px;
+}
+
+@media only screen and (min-width:481px) and (max-width:1080px){
+    .profilepageheadingContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mainInterfaceContainer{
+        flex-direction: column;
+    }
+    .fontContainerButtons{
+        flex-direction: column;
+    }
+    .inputContainer{
+        flex-direction: column;
+    }
+    .displayInterfaceContainer{
+        margin: 5% 0;
+        min-height: 600px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .profilepageheadingContainer{
+        flex-direction: column;
+    }
+    .mainInterfaceContainer{
+        flex-direction: column;
+    }
+    .fontContainerButtons{
+        flex-direction: column;
+    }
+    .inputContainer{
+        flex-direction: column;
+    }
+    .displayInterfaceContainer{
+        min-height: 420px;
+    }
+    .displayInterface{
+        margin: 5%;
+        width: 280px;
+        height: 420px;
+    }
+    .displayInterfaceContainerForView{
+        min-height: 420px;
+    }
+    .displayInterfaceForView{
+        margin: 5%;
+        width: 280px;
+        height: 420px;
+    }
+    .displayInterface>P{
+        font-size: 1.1rem;
+    }
+    .displayInterfaceForView>p{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width:1921px) and (max-width:2880px){
+    .displayInterfaceForView{
+        width: 600px;
+        height: 900px;
+    }
+    .displayInterfaceForView>p{
+        font-size: 2.625rem;
+    }
+    .profilepageheadingText{
+        font-size: 2.25rem;
+    }
+    .profilepageheadingButton>button{
+        font-size: 1.5rem;
+    }
+    .displayInterface{
+        margin: 5% 0;
+        width: 600px;
+        height: 900px;
+    }
+    .subheadingContainer>p{
+        font-size: 1.5rem;
+    }
+    .inputContainerSemicontainer2b>button{
+        font-size: 1.5rem;
+    }
+    .colorContainerButtons>button{
+        width: 45px;
+        height: 45px;
+    }
+    .fontContainerButtons>button{
+        font-size: 2.25rem;
+        padding: 15px;
+    }
+    .inputContainerTextarea>textarea{
+        font-size: 2.25rem;
+        min-height: 225px;
+    }
+    .inputContainerInputarea>input{
+        font-size: 2.25rem;
+        min-height: 45px;
+    }
+    .displayInterface>p{
+        font-size: 2.25rem;
+    }
+    .profilepageheadingButton>button{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width:2881px){
+    .displayInterfaceForView{
+        width: 800px;
+        height: 1200px;
+    }
+    .displayInterfaceForView>p{
+        font-size: 3.5rem;
+    }
+    .profilepageheadingText{
+        font-size: 3rem;
+    }
+    .profilepageheadingButton>button{
+        font-size: 2rem;
+    }
+    .displayInterface{
+        margin: 5% 0;
+        width: 800px;
+        height: 1200px;
+    }
+    .subheadingContainer>p{
+        font-size: 2rem;
+    }
+    .inputContainerSemicontainer2b>button{
+        font-size: 2rem;
+    }
+    .colorContainerButtons>button{
+        width: 60px;
+        height: 60px;
+    }
+    .fontContainerButtons>button{
+        padding: 20px;
+        font-size: 3rem;
+    }
+    .inputContainerTextarea>textarea{
+        font-size: 3rem;
+        min-height: 300px;
+    }
+    .inputContainerInputarea>input{
+        font-size: 3rem;
+        min-height: 60px;
+    }
+    .displayInterface>p{
+        font-size: 3rem;
+    }
+    .profilepageheadingButton>button{
+        padding: 20px;
+    }
+}
