@@ -16,7 +16,7 @@ const Register = () => {
   const handleSubmit = (e) =>{
     e.preventDefault();
     const { name, email, password, cpassword } = data;
-    fetch("/register",{
+    fetch("https://quotezappbackend.onrender.com/register",{
       method:"POST",
       headers:{
         "Content-Type":"application/json",

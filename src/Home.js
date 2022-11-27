@@ -5,7 +5,7 @@ const Home = () => {
   const [ pictures, setPictures ] = useState([])
   const getData = async() =>{
     try{
-      const response = await fetch("/home",{
+      const response = await fetch("https://quotezappbackend.onrender.com/home",{
         method:"GET",
         headers:{
           "Content-Type":"application/json"
